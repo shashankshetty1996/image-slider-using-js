@@ -34,12 +34,12 @@ Caption class is used to add a caption to the image which is currently been disp
 There are 4 animation class which has to used along caption class
 
 ```
-Animation Class  | description
----------------- | ----------------
-left             | Caption is moved from right to left
-right            | Caption is moved from left to right
-top              | Caption is moved from bottom to top
-bottom           | Caption is moved from top to bottom
+Animation Class  | description                           |
+---------------- | ------------------------------------- |
+`left`           | `Caption is moved from right to left` |
+`right`          | `Caption is moved from left to right` |
+`top`            | `Caption is moved from bottom to top` |
+`bottom`         | `Caption is moved from top to bottom` |
 ```
 
 ---

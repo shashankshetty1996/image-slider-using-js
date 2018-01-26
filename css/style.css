@@ -1,0 +1,119 @@
+/* slider container */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden; 
+}
+
+/* overlapping all the images on over the other inside slider */
+.slider .items img {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* initial hidding all the images and caption */
+.slider .items {
+    display: none;
+}
+
+/* showing first image and it's caption only */
+.slider .items:first-child {
+    display: block;
+}
+
+/* Captions */
+.slider .items .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+
+/* 
+
+    Animations 
+
+*/
+
+/* left movement class .left */
+.slider .items .caption.left {
+    top: 40%;
+    animation-name: left;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+/* left animation keyframe */
+@keyframes left {
+    from {
+        left: 70%;
+    }
+
+    to {
+        left: 10%;
+    }
+}
+
+/* right movement class .right */
+.slider .items .caption.right {
+    top: 40%;
+    animation-name: right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+/* right animation keyframe */
+@keyframes right {
+    from {
+        left: 10%;
+    }
+
+    to {
+        left: 70%;
+    }
+}
+
+/* bottom movement class .bottom */
+.slider .items .caption.bottom {
+    text-align: center;
+    animation-name: bottom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+/* bottom animation keyframe */
+@keyframes bottom {
+    from {
+        top: 10%;
+    }
+
+    to {
+        top: 70%;
+    }
+}
+
+/* top movement class .top */
+.slider .items .caption.top {
+    text-align: center;
+    animation-name: top;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+/* top animation keyframe */
+@keyframes top {
+    from {
+        top: 70%;
+    }
+
+    to {
+        top: 10%;
+    }
+}

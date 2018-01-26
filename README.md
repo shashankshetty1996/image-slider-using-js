@@ -8,23 +8,23 @@ HTML markup contains class slider which will act as container for the image slid
 
 ###item
 Acts as the placeholder for image and it's caption
-`
+```html
 <div class="items">
     <img src="/img/image1.jpeg" alt="Image not loaded">
     <div class="caption bottom">
         <h1>Caption here</h1>
     </div>
 </div>
-`
+```
 
 ### caption
 Caption class is used to add a caption to the image which is currently been displayed.
 
-`
+```html
 <div class="caption bottom">
     <!-- caption here -->
 </div>
-`
+```html
 
 ### animation class
 There are 4 animation class which has to used along caption class

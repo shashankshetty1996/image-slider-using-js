@@ -24,7 +24,7 @@ Caption class is used to add a caption to the image which is currently been disp
 <div class="caption bottom">
     <!-- caption here -->
 </div>
-```html
+```
 
 ### animation class
 There are 4 animation class which has to used along caption class
